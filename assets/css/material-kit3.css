@@ -2664,6 +2664,10 @@ progress {
     padding-right: 1.025rem;
     padding-left: 1.025rem;
 }
+.logo-msa-header{
+  width: 40%!important;
+  margin-top: -12.5% !important;
+}
 }
 
 @media (max-width: 991.98px) {
@@ -21893,7 +21897,7 @@ body.dark-version {
 }
 
 .page-header {
-  padding: 0;
+  padding: 25px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -27813,7 +27817,7 @@ pre[class*="language-"] {
 /*# sourceMappingURL=kit-free.css.map */
 .logo-msa-header{
   width: 30%;
-  margin-top: -9.5% !important;
+  margin-top: -15.5%;
 }
 .msa-logo-header{
   margin-top: -16.8rem !important;
