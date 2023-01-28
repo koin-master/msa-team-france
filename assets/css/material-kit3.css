@@ -366,7 +366,6 @@ th {
 
 label {
   display: inline-block;
-  z-index: 4;
 }
 
 button {
@@ -21990,6 +21989,7 @@ body.dark-version {
 
 .input-group {
   border-radius: 0;
+  background-color: white;
 }
 
 .input-group:not(.has-validation)> :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),
@@ -22140,8 +22140,7 @@ body.dark-version {
   border-top-left-radius: 0.375rem !important;
   border-bottom-left-radius: 0.375rem !important;
   padding: 0.625rem 0.75rem !important;
-  line-height: 1.3 !important;
-  background-color: #ffffff57;
+  line-height: 1.3 !important; 
 }
 
 .input-group.input-group-outline .form-control.form-control-lg {
@@ -25856,8 +25855,11 @@ h4,
   width: 20%!important;
 }
 }
-
-
+@media (768px <= width <= 992px)  {
+.logo-contact{
+  width: 20%!important;
+}
+}
 @media (min-width: 1439.98px) {
  
   h4 {
@@ -27773,18 +27775,7 @@ pre[class*="language-"] {
     overflow: auto !important;
   }
 }
-.form-contact {
-  /* background-color: #e0e5ec; */
-  background-color: #ffffffb8;
-  /* border: 1px solid #23fee230; */
-  padding: 2rem;
-  border-radius: 2rem;
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
-  transition: all 250ms ease-in-out;
-}
-.form-contact:hover {
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
-}
+
 .block {
   border-bottom: 2px solid transparent;
   transition: .5s all;
