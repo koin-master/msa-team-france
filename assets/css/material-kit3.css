@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #63B3ED;
   --bs-indigo: #596CFF;
@@ -8995,7 +8989,7 @@ fieldset:disabled .btn {
 }
 
 .min-vh-100 {
-  min-height: 70vh !important;
+  min-height: 83vh !important;
 }
 
 .flex-fill {
@@ -25824,7 +25818,7 @@ h4,
     font-size: 0.7rem;
 }
   .page-header h1 {
-    font-size: calc(1rem + 2.1vw);
+    font-size: calc(1.5rem + 2.1vw);
     margin-bottom: 0.2rem!important;
   }
   .page-header h3 {
@@ -25838,7 +25832,7 @@ h4,
   display: block;
 }
 .min-vh-100 {
-  min-height: 50vh !important;
+  min-height: 63vh !important;
 }
 .msa-logo-scale {
   width: 51%!important;
@@ -27808,7 +27802,7 @@ pre[class*="language-"] {
 /*# sourceMappingURL=kit-free.css.map */
 .logo-msa-header{
   width: 30%;
-  margin-top: -16.5% !important;
+  margin-top: -9.5% !important;
 }
 .msa-logo-header{
   margin-top: -16.8rem !important;
