@@ -8995,7 +8995,7 @@ fieldset:disabled .btn {
 }
 
 .min-vh-100 {
-  min-height: 83vh !important;
+  min-height: 70vh !important;
 }
 
 .flex-fill {
@@ -25824,7 +25824,7 @@ h4,
     font-size: 0.7rem;
 }
   .page-header h1 {
-    font-size: calc(1.5rem + 2.1vw);
+    font-size: calc(1rem + 2.1vw);
     margin-bottom: 0.2rem!important;
   }
   .page-header h3 {
@@ -25838,7 +25838,7 @@ h4,
   display: block;
 }
 .min-vh-100 {
-  min-height: 63vh !important;
+  min-height: 50vh !important;
 }
 .msa-logo-scale {
   width: 51%!important;
