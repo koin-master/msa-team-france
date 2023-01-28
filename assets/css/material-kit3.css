@@ -25803,6 +25803,13 @@ h4,
   text-align: left;
 }
 }
+
+
+@media (max-width: 600px) { 
+  .Conseils{
+    font-size: 0.5rem!important;
+  }
+}
 @media (992px <= width <= 1199.98px) {
   .navbar-expand-lg .navbar-nav .nav-link 
   {
