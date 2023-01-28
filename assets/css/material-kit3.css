@@ -2660,6 +2660,10 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .container, .container-fluid {
+    padding-right: 1.025rem;
+    padding-left: 1.025rem;
+}
 }
 
 @media (max-width: 991.98px) {
@@ -27794,7 +27798,7 @@ pre[class*="language-"] {
   color: white;
   text-align: center;
   position: sticky;
-  bottom: 0;
+  bottom: 1px;
   width: 100%;
   /* border: double; */
   border-radius: 0;
