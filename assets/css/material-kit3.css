@@ -25807,7 +25807,7 @@ h4,
 
 @media (max-width: 600px) { 
   .Conseils{
-    font-size: 1rem!important;
+    font-size: 0.88rem!important;
   }
 }
 @media (992px <= width <= 1199.98px) {
